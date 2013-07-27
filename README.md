@@ -15,3 +15,5 @@ make package/opus/compile V=99
 # To just run the packaging again (in case you want to try something)
 make package/opus/compile V=99 CONFIG_AUTOREBUILD=
 ```
+
+NOTE: In my tests, I was not able to produce proper sound. However this might be related to the ALSA configuration. Please let me know if you succeed in making calls.
